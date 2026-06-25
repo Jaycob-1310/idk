@@ -13,3 +13,96 @@
 .item-detail-image {
   max-height: 320px;
 }
+
+* {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 24px;
+        font-family: "Times New Roman", Times, serif
+        line-height: 2;
+        background-color: #d4d4d4;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+      }
+
+      section {
+        background-color: #d4d4d4;
+        border: 1px solid #d4d4d4;
+        padding: 16px;
+        margin-bottom: 16px;
+        border-radius: 7px;
+        background-color: #0f7458;
+      }
+
+      .swatch {
+        width: 140px;
+        height: 70px;
+      }
+
+      .bg-primary {
+        background-color: #0f7458;
+        border-radius: 7px;
+      }
+
+      .bg-secondary {
+       background-color: #13bbb8;
+        border-radius: 7px;
+      }
+
+      button {
+        background-color: #667eea;
+        color: #ffffff;
+        border: none;
+        padding: 10px 14px;
+        border-radius: 7px;
+      }
+
+      button:hover {
+        background-color: #5568d3;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #cccccc;
+        margin-bottom: 12px;
+        border-radius: 7px;
+      }
+
+      .card {
+        border: 1px solid #13bbb8;
+        padding: 12px;
+        background-color: #fafafa;
+        border-radius: 7px;
+         background-color: #13bbb8;
+      }
+
+      .card h3,
+      .card p {
+        margin: 8px 0 8px 0;
+      }
+
+      .card img {
+        margin: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+
+      footer {
+        color: #666666;
+        font-size: 14px;
+      }
