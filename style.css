@@ -37,7 +37,7 @@
         padding: 16px;
         margin-bottom: 16px;
         border-radius: 7px;
-        background-color: #0f7458;
+        background-color: #ffffff;
       }
 
       .swatch {
@@ -46,12 +46,12 @@
       }
 
       .bg-primary {
-        background-color: #0f7458;
+        background-color: #ffffff;
         border-radius: 7px;
       }
 
       .bg-secondary {
-       background-color: #13bbb8;
+       background-color: #ffffff;
         border-radius: 7px;
       }
 
@@ -77,11 +77,11 @@
       }
 
       .card {
-        border: 1px solid #13bbb8;
+        border: 1px solid #ffffff;
         padding: 12px;
         background-color: #fafafa;
         border-radius: 7px;
-         background-color: #13bbb8;
+         background-color: #ffffff;
       }
 
       .card h3,
